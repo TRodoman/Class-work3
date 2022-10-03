@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.logo,
+.item-box,
+.map,
+.address-link,
+.social,
+.social-area,
+.btn-block {
+  text-align: center;
+}
+
+/* --------------------- Логотип----------------- */
+
+.logo {
+  text-transform: uppercase;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 48px;
+  line-height: 1.46;
+  letter-spacing: 0.1em;
+}
+.logo-color {
+  color: #3e45e8;
+}
+.logo-el {
+  color: #e8c23e;
+}
+.logo-header {
+  margin: 25px;
+}
+.logo-el-footer {
+  color: #dfe31e;
+  margin-top: 6px;
+}
+
+/* ---------------------Банер--------------------- */
+
+.promo {
+  background-image: url(../img/promo.png);
+  background-position: center;
+  height: 766px;
+}
+.promo-box {
+  display: flex;
+}
+.banner {
+  margin-top: 240px;
+  margin-left: 80px;
+}
+.promo-text {
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.57;
+  margin-top: 231px;
+  margin-left: 22px;
+}
+
+/* -----------------Неймовірні місця ------------------- */
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.57;
+  text-transform: uppercase;
+}
+.item {
+  margin-top: 48px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+.item-block {
+  background: #ffffff;
+  border: 5px solid #0d095f;
+  border-radius: 35px;
+  display: inline-block;
+  text-align: left;
+  width: 390px;
+  height: 480px;
+  margin: 15px;
+  margin-top: 42px;
+}
+.item-title > a {
+  color: #0072db;
+  font-size: 24px;
+  line-height: 1.57;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.item-text {
+  color: #ff9900;
+  font-size: 20px;
+  line-height: 1.57;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.block1 {
+  filter: drop-shadow(-16px 21px 40px rgba(0, 209, 255, 0.35));
+}
+.block2 {
+  filter: drop-shadow(0px 21px 35px rgba(0, 209, 255, 0.35));
+}
+.block3 {
+  filter: drop-shadow(16px 21px 40px rgba(0, 209, 255, 0.35));
+}
+
+/* --------------------------Наша Україна ---------------- */
+
+.map-title {
+  border-bottom: 7px solid #1400ff;
+  width: 570px;
+  margin: 36px auto 39px;
+}
+
+/* -------------------------buttom ----------------------- */
+
+.btn-block {
+  margin-top: 23px;
+  margin-bottom: 42px;
+}
+.btn {
+  background: #2a61f0;
+  padding: 10px 208px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.57;
+  border-radius: 50px;
+  border: none;
+}
+
+/* -----------------------footer---------------- */
+
+.footer {
+  height: 233px;
+  background: linear-gradient(180deg, #013235 0%, #0d0661 100%);
+}
+.address {
+  font-style: normal;
+}
+.link {
+  font-family: "Marcellus SC", serif;
+  color: #a89d9d;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 0.1em;
+}
+.social-area {
+  display: inline-block;
+  margin: 3px 14px 30px;
+}
