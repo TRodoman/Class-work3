@@ -95,6 +95,7 @@ a {
   height: 480px;
   margin: 15px;
   margin-top: 42px;
+  overflow: hidden;
 }
 .item-title > a {
   color: #0072db;
@@ -109,7 +110,6 @@ a {
   line-height: 1.57;
   margin-top: 15px;
   margin-left: 10px;
-  
 }
 .block1 {
   filter: drop-shadow(-16px 21px 40px rgba(0, 209, 255, 0.35));
@@ -127,6 +127,10 @@ a {
   border-bottom: 7px solid #1400ff;
   width: 570px;
   margin: 36px auto 39px;
+}
+
+.map-box {
+  text-align: center;
 }
 
 /* -------------------------buttom ----------------------- */
